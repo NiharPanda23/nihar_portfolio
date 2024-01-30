@@ -2,7 +2,7 @@ import React from 'react';
 import { motion} from 'framer-motion';
 import {AppWrap} from '../../wrapper'
 import { images } from '../../constants';
-import './Header.scss';
+import './Header.css';
 
 const scaleVariants ={
   whileInView: {
@@ -32,8 +32,10 @@ const Header = () => {
             </div>
           </div>
           <div className='tag-cmp app__flex'>
-            <p className='p-text'>Fullstack Web Developer</p>
+            <p className='p-text'>Web Developer</p>
             <p className='p-text'>Ui/Ux Designer</p>
+            <p className='p-text'>Web Animation</p>
+            <p className='p-text'>Web Designer</p>
           </div>
         </div>
       </motion.div>
@@ -58,7 +60,7 @@ const Header = () => {
         whileInView={scaleVariants.whileInView}
         className='app__header-circles'
       >
-        {[images.javascript, images.react, images.sass].map((circle, index) => (
+        {[images.javascript, images.react, images.css].map((circle, index) => (
           <div className='circle-cmp app__flex' key={`circle-${index}`}>
             <img src={circle} alt='circle'/>
           </div>
