@@ -29,7 +29,7 @@
   .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
   }
@@ -39,8 +39,8 @@
     flex-direction: column;
   }
   .app__navbar-links li div {
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     background: transparent;
     border-radius: 50%;
     margin-bottom: 5px;

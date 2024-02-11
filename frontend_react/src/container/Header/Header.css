@@ -152,8 +152,8 @@
     position: relative;
   }
   .app__header-img img {
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 85%;
     object-fit: contain;
     z-index: 1;
   }
@@ -164,7 +164,7 @@
     bottom: 0;
     z-index: 0;
     width: 100%;
-    height: 90%;
+    height:90%;
   }
   @media screen and (max-width: 1200px) {
     .app__header-img {
