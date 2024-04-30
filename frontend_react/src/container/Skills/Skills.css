@@ -28,13 +28,14 @@
   height: 90px;
   border-radius: 50%;
   background-color: #fef4f5;
+  
 }
 .app__skills-item div img {
   width: 50%;
   height: 50%;
 }
 .app__skills-item div:hover {
-  box-shadow: 0 0 25px #fef4f5;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.18);
 }
 .app__skills-item p {
   font-weight: 500;

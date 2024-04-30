@@ -97,8 +97,8 @@
   padding: 1rem;
 }
 .app__social div {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: var(--white-color);
   margin: 0.25rem 0;
@@ -107,18 +107,19 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .app__social div a {
-  padding-top: 0.2rem;
+  padding-top: 0rem;
   justify-content: flex-start;
   align-items: flex-start;
 }
 .app__social div svg {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   color: var(--gray-color);
   justify-content: center;
-  align-items: center;
+  vertical-align: middle;
 }
 .app__social div:hover {
   background-color: var(--secondary-color);
