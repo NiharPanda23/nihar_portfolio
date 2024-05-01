@@ -1,3 +1,10 @@
+import meta from '../assets/meta.png';
+import dribble from '../assets/dribble.png';
+import twitter from '../assets/twitter.png'
+import gmail from '../assets/gmail.png';
+import insta from '../assets/instagram.png';
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.png'
 import email from '../assets/email.png';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
@@ -69,4 +76,11 @@ export default {
   nb,
   skype,
   spotify,
+  meta,
+  dribble,
+  twitter,
+  gmail,
+  insta,
+  github,
+  linkedin,
 };

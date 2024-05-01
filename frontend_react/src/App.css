@@ -109,6 +109,8 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+
 .app__social div a {
   padding-top: 0rem;
   justify-content: flex-start;
@@ -121,10 +123,16 @@
   justify-content: center;
   vertical-align: middle;
 }
-.app__social div:hover {
+.app__social img{
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* .app__social div:hover {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
-}
+} */
 .app__social div:hover svg {
   color: var(--white-color);
 }
@@ -137,6 +145,11 @@
   .app__social div svg {
     width: 30px;
     height: 30px;
+  }
+  .app__social img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
   }
 }
 .app__navigation {
